@@ -108,13 +108,13 @@ height: 50px;
 .divisao1-1{
     height: 50px;
     display: flex;
-    
+    align-items: center;
+  
 }
 .divisao1-2{
     height: 50px;
     display: flex;
     align-items: center;
-    text-align: center;
     justify-content: center;
 }
 .divisao1-3{
