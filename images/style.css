@@ -119,7 +119,7 @@ height: 50px;
 }
 .divisao1-3{
     height: 50px;
-    
+    display: flex;
 }
 .numero{
     display: inline-block;
