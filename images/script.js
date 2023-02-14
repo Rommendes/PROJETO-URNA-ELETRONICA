@@ -47,10 +47,14 @@ function atualizaInterface(){
 
         let fotosHtml = '';
         for(let i in candidato.fotos){  
-            fotosHtml += `<div class="divisao1-image"> <img src="img candidatos/${candidato.fotos[i].url} alt="">${candidato.fotos[i].legenda} </div>`
+            fotosHtml += `<div class="divisao1-image"> <img src="img candidatos/${candidato.fotos[i].url} alt=""/>${candidato.fotos[i].legenda} </div>`
         }
 
         lateralTela.innerHTML = fotosHtml;
+    } else {
+        seuVotoPara.style.display = 'block';
+        aviso.style.display= 'block';
+        descricao.innerHTML = `<div class="avisoGrande pisca">VOTO NULO</div>`;
     }
     
 }
