@@ -5,20 +5,47 @@ let etapas = [
             candidatos: [
                 {
                     numero: '38111',
-                    nome: 'Fulano de Tal',
+                    nome: 'Emmanuel Macron',
                     partido: 'ABC',
                     fotos:[
-                        {url:'38111.jpg', legenda: 'Vereador'}
+                        {url:'img candidatos/Emmanuel Macron.jpg', legenda: 'Vereador'}
                     ]
                 },
                 {
                     numero: '77222',
-                    nome: 'Beltrano da Silva',
+                    nome: 'Evo Morales',
                     partido: 'DEFG',
                     fotos:[
-                        {url:'77222.jpg', legenda: 'Vereador'}
+                        {url:'img candidatos/evomorales.jpg', legenda: 'Vereador'}
                     ]
                 },
+
+                {
+                    numero: '23555',
+                    nome: 'Hillary Clinton',
+                    partido: 'DEFG',
+                    fotos:[
+                        {url:'img candidatos/Hillary Clinton.jpg', legenda: 'Vereador'}
+                    ]
+                },
+
+                {
+                    numero: '22211',
+                    nome: 'Xi Jinping',
+                    partido: 'DEFG',
+                    fotos:[
+                        {url:'img candidatos/Xi Jinping.jpg', legenda: 'Vereador'}
+                    ]
+                },
+                {
+                    numero: '99555',
+                    nome: 'Yasser Arafat',
+                    partido: 'DEFG',
+                    fotos:[
+                        {url:'img candidatos/Yasser Arafat.jpg', legenda: 'Vereador'}
+                    ]
+                },
+
             ]
         },
         
@@ -28,22 +55,22 @@ let etapas = [
             candidatos: [
                 {
                     numero: '99',
-                    nome: 'Ciclano',
+                    nome: 'Donald Trump',
                     partido: 'ABC',
                     vice: 'Cic',
                     fotos:[
-                        {url:'99.jpg', legenda: 'Prefeito'},
-                        {url:'99_2.jpg', legenda: 'Vice-Prefeito', small: true}
+                        {url:'img candidatos/Trump.jpg', legenda: 'Prefeito'},
+                        {url:'img candidatos/Biden.jpg', legenda: 'Vice-Prefeito', small: true}
                     ]
                 },
                 {
                     numero: '84',
-                    nome: 'Zulano',
+                    nome: 'Margaret Thacher',
                     partido: 'QWERTY',
-                    vice: 'Zul',
+                    vice: 'Vladimir Putin',
                     fotos:[
-                        {url:'84.jpg', legenda: 'Prefeito'},
-                        {url:'84_2.jpg', legenda: 'Vice-Prefeito', small: true}
+                        {url:'img candidatos/Margaret Thacher.jpg', legenda: 'Prefeito'},
+                        {url:'img candidatos/Vladimir Putin', legenda: 'Vice-Prefeito', small: true}
                     ]
                 },
             ]
