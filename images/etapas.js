@@ -8,7 +8,7 @@ let etapas = [
                     nome: 'Emmanuel Macron',
                     partido: 'ABC',
                     fotos:[
-                        {url:'img candidatos/Emmanuel Macron.jpg', legenda: 'Vereador'}
+                        {url:'imgCandidatos/EmmanuelMacron.jpg', legenda: 'Vereador'}
                     ]
                 },
                 {
@@ -16,7 +16,7 @@ let etapas = [
                     nome: 'Evo Morales',
                     partido: 'DEFG',
                     fotos:[
-                        {url:'img candidatos/evomorales.jpg', legenda: 'Vereador'}
+                        {url:'imgCandidatos/evomorales.jpg', legenda: 'Vereador'}
                     ]
                 },
 
@@ -25,7 +25,7 @@ let etapas = [
                     nome: 'Hillary Clinton',
                     partido: 'DEFG',
                     fotos:[
-                        {url:'img candidatos/Hillary Clinton.jpg', legenda: 'Vereador'}
+                        {url:'imgCandidatos/HillaryClinton.jpg', legenda: 'Vereador'}
                     ]
                 },
 
@@ -34,7 +34,7 @@ let etapas = [
                     nome: 'Xi Jinping',
                     partido: 'DEFG',
                     fotos:[
-                        {url:'img candidatos/Xi Jinping.jpg', legenda: 'Vereador'}
+                        {url:'imgCandidatos/XiJinping.jpg', legenda: 'Vereador'}
                     ]
                 },
                 {
@@ -42,7 +42,7 @@ let etapas = [
                     nome: 'Yasser Arafat',
                     partido: 'DEFG',
                     fotos:[
-                        {url:'img candidatos/Yasser Arafat.jpg', legenda: 'Vereador'}
+                        {url:'imgCandidatos/YasserArafat.jpg', legenda: 'Vereador'}
                     ]
                 },
 
@@ -59,8 +59,8 @@ let etapas = [
                     partido: 'ABC',
                     vice: 'Cic',
                     fotos:[
-                        {url:'img candidatos/Trump.jpg', legenda: 'Prefeito'},
-                        {url:'img candidatos/Biden.jpg', legenda: 'Vice-Prefeito', small: true}
+                        {url:'imgCandidatos/Trump.jpg', legenda: 'Prefeito'},
+                        {url:'imgCandidatos/Biden.jpg', legenda: 'Vice-Prefeito', small: true}
                     ]
                 },
                 {
@@ -69,8 +69,8 @@ let etapas = [
                     partido: 'QWERTY',
                     vice: 'Vladimir Putin',
                     fotos:[
-                        {url:'img candidatos/Margaret Thacher.jpg', legenda: 'Prefeito'},
-                        {url:'img candidatos/Vladimir Putin', legenda: 'Vice-Prefeito', small: true}
+                        {url:'imgCandidatos/MargareThacher.jpg', legenda: 'Prefeito'},
+                        {url:'imgCandidatos/Vladimir Putin', legenda: 'Vice-Prefeito', small: true}
                     ]
                 },
             ]
