@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .o-header {
+        grid-area: header;
+        padding: 2rem;
+       
+            }
+
+    .o-aside {
+        grid-area: aside;
+        
+            }
+
+    .o-main {
+        grid-area: main;
+       width: 800px;
+            }
+
+    .o-footer {
+        grid-area: footer;
+        padding: 1rem;
+        width: 100%;
+            }
+    body {
+        display: grid;
+        grid-template-areas:
+        "header header header"
+        "main aside"
+        "footer footer footer";
+        grid-gap: 1rem;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto 100vh auto;
+        }
+    .o-header, .o-aside, .o-main, .o-footer { background: #E6ECF0; color: #FDFDFD;
+    }
+    </style>
+</head>
+
+<body>
+
+<header class="o-header">
+<h1>URNA ELETRÔNICA</h1>
+
+</header>
+
+<aside class="o-aside">Aside</aside>
+
+<main class="o-main">Main</main>
+
+<footer class="o-footer">Footer</footer>
+
+</body>
+</html>
