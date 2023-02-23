@@ -57,7 +57,7 @@ let etapas = [
                     numero: '99',
                     nome: 'Donald Trump',
                     partido: 'ABC',
-                    vice: 'Cic',
+                    vice: 'Biden',
                     fotos:[
                         {url:'imgCandidatos/Trump.jpg', legenda: 'Prefeito'},
                         {url:'imgCandidatos/Biden.jpg', legenda: 'Vice-Prefeito', small: true}
@@ -69,8 +69,8 @@ let etapas = [
                     partido: 'QWERTY',
                     vice: 'Vladimir Putin',
                     fotos:[
-                        {url:'imgCandidatos/MargareThacher.jpg', legenda: 'Prefeito'},
-                        {url:'imgCandidatos/Vladimir Putin', legenda: 'Vice-Prefeito', small: true}
+                        {url:'imgCandidatos/MargaretThatcher.jpg', legenda: 'Prefeito'},
+                        {url:'imgCandidatos/VladimirPutin.jpg', legenda: 'Vice-Prefeito', small: true}
                     ]
                 },
             ]
