@@ -1,3 +1,4 @@
+
 //1º CRIAR UMA VARIÁVEL PARA CADA UMA DAS INFORMAÇÕES
 let seuVotoPara = document.querySelector('.divisao1-1 span');
 let cargo = document.querySelector('.divisao1-2 span');
